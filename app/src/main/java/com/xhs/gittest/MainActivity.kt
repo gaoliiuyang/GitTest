@@ -7,5 +7,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        initData()
+    }
+
+    private fun initData() {
+        val list = mutableListOf<String>()
+        list.add("111111")
     }
 }
